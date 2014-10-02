@@ -71,7 +71,7 @@ template <class DataFacadeT> class GPXDescriptor : public BaseDescriptor<DataFac
                            "xsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 gpx.xsd"
                            "\">"
                            "<metadata><copyright author=\"Project OSRM\"><license>Data (c)"
-                           " OpenStreetMap contributors (ODbL)</license></copyright>"
+                           " http://hartamd.com"
                            "</metadata>"
                            "<rte>");
         reply.content.insert(reply.content.end(), header.begin(), header.end());
